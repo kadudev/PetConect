@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja bem vinde ao PetConect</title>
+    <link rel="shortcut icon" href="Estaticos/LogoMobile.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="Estilos/style.css" media="all" />
+    <link rel="stylesheet" href="Estilos/media-query.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family-Lemon&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body >
+    <script src="script.js"></script>
+    <header id="header" class="header">
+        <a href="index.html"><img id="gato" class="gato" src="Estaticos/LogoMobile.svg" alt="LogoMobile"></a>
+        <div class="nav-img">
+            <div class="menu" id="menu">
+                <img src="Estaticos/LogoMobile.svg" alt="" id="gato-menu" class="gato-menu"><br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="">Comunidade</a></li>
+                <li><a href="">Adotar</a></li>
+                <li><a href="">Perfil</a></li>
+                <li><a href="">Doações</a></li>
+                <li><a href="">Guia</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+        <img id="imagem" src="Estaticos/pata-de-gato.png" alt="" onclick="toggleMenu()">
+    </div>
+    </header>
+    <main class="conteudo" id="conteudo">
+    <section class="section-elipse"><center>
+        <div class="elipse">
+            <p>Querido defensor dos animais,
+                Nossa ONG é o lar temporário 
+                de almas peludas cheias de esperança. 
+                Ao adotar, você não apenas ganha um amigo, 
+                mas dá a esses peludos a chance de uma vida melhor. 
+                Seja a razão por trás dos rabos abanando 
+                e dos ronronares carinhosos. Adote e encontre a felicidade!
+            </p>
+            <img class="golden" id="golden" src="Estaticos/golden.svg" alt="">
+            </div></center>
+    <div class="barra-pesquisa">
+            <div class="tipos" id="tipo-pet" onclick="toggleTipoPet()">
+                <img id="tipo-pet-img" src="Estaticos/tipo-pet.svg" alt="" >
+                Tipo de pet
+                <div class="selecaopet" id="selecaopet">
+                    <div class="opcao">Cachorro</div>
+                    <div class="opcao">Gato</div>
+                </div>
+            </div>
+
+            <div class="tipos" id="tipo-cidade" onclick="toggleCidade()">
+                <img id="cidade-img" src="Estaticos/cidade.svg" alt="" >
+                Cidade
+                <div class="cidade" id="cidade">
+                    <div class="opcao">Belo Horizonte</div>
+                    <div class="opcao">Gov. Valadares</div>
+                    <div class="opcao">Teófilo Otoni</div>
+                </div>
+            </div>
+
+            <div class="input-encontre" id="input-encontre">
+                <img id="encontre" src="Estaticos/input-encontre.svg" alt="" >
+                Encontre seu amigo
+                <div class="cidade" id="cidade">
+                    <div class="opcao">Belo Horizonte</div>
+                    <div class="opcao">Gov. Valadares</div>
+                    <div class="opcao">Teófilo Otoni</div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section class="section-text">
+        <h2>Bem vindos ao PetConect!! </h2>
+        <h3>
+            Nossa plataforma veio com o intuito de 
+            conectar ONGs de cachorros e gatos a pessoas 
+            que desejam adotar um amiguinho ou até fazer 
+            doações para a saúde e bem estar dos mesmos. </h3>
+    </section>
+</main>
+    <footer class="footer" id="footer">
+        <div class="redes">
+        <a href="https://twitter.com">
+            <div class="icon" id="tt">
+              <i class="fab fa-twitter"></i>
+            </div></a>
+            <a href="https://instagram.com">
+                <div class="icon"id="ig">
+                  <i class="fab fa-instagram"></i>
+                </div></a></div>
+        <p>Copyright. PetConect, 2023. Todos os direitos reservados.</p>
+    </footer>
+</main>
+</body>
+</html>
